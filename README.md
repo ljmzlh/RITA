@@ -2,7 +2,7 @@
 This Repo contains code and data for [Jiaming, Liang, et al. "RITA: Group Attention is All You Need for Timeseries Analytics."]() If you use RITA in your project, please cite the following paper:
 
 ```
-
+a
 ```
 
 ![overview_0](https://drive.google.com/uc?id=1YkwqSqtJQDBZQqakRySXelDrl8juNPOg)
