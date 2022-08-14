@@ -52,7 +52,7 @@ The running command is as following:
 ```
 python run.py --dataset DATASET --mode MODE --label_size LABLE_SIZE [--pretrained_path PRETRAINED_PATH]
 ```
-`DATASET` describes the dataset, which should be among `[WISDM,RWHAR,HHAR,ECG]`. `MODE` describes the running mode, which should be among `[pretrain,train,finetune]`. `LABLE_SIZE` describes the size of labels used in training stage, which should be among `[full,few]`. `PRETRAINED_PATH` is requried when `MODE=finetune`; it indicates the path to pretrained checkpoint to start with.
+`DATASET` describes the dataset, which should be among `[wisdm,rwhar,hhar,ecg]`. `MODE` describes the running mode, which should be among `[pretrain,train,finetune]`. `LABLE_SIZE` describes the size of labels used in training stage, which should be among `[full,few]`. `PRETRAINED_PATH` is requried when `MODE=finetune`; it indicates the path to pretrained checkpoint to start with.
 
 
 
@@ -60,7 +60,7 @@ python run.py --dataset DATASET --mode MODE --label_size LABLE_SIZE [--pretraine
 
 To perform full-label training, set `MODE` to `train` and `LABLE_SIZE` to `full`. For example, the command of full-label training on dataset WISDM is:
 ```
-python run.py --dataset WISDM --mode train --label_size full
+python run.py --dataset wisdm --mode train --label_size full
 ```
 
 
@@ -68,12 +68,12 @@ python run.py --dataset WISDM --mode train --label_size full
 
 To perform self-superviesed pretraining, set `MODE` to `pretrain`. For example, the command of full-label training on dataset WISDM is:
 ```
-python run.py --dataset WISDM --mode pretrain --label_size full
+python run.py --dataset wisdm --mode pretrain --label_size full
 ```
 
 The pretrained checkpoints are stored in directory `rita/code/checkpoints`. After pretraining, the checkpoints can be copied and saved for further finetuning.
 
 To perform few-label finetuning, set `MODE` to `finetune` and set `PRETRAINED_PATH` to the pretrained checkpoint's path, which is either obtained by performing pretraining as described above or downloading the pretrained checkpoints [here](). For example, the command of few-label finetuning on dataset WISDM is:
 ```
-python run.py --dataset WISDM --mode finetune --label_size few --pretrained_path WISDM_PRETRAINED_PATH
+python run.py --dataset wisdm --mode finetune --label_size few --pretrained_path WISDM_PRETRAINED_PATH
 ```
