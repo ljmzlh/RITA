@@ -1,9 +1,5 @@
 # RITA
-This Repo contains code and data for [Jiaming, Liang, et al. "RITA: Group Attention is All You Need for Timeseries Analytics."]() If you use RITA in your project, please cite the following paper:
-
-```
- 
-```
+This Repo contains code and data for ["RITA: Group Attention is All You Need for Timeseries Analytics."]() 
 
 ![overview_0](https://drive.google.com/uc?id=1YkwqSqtJQDBZQqakRySXelDrl8juNPOg)
 
@@ -74,7 +70,7 @@ python run.py --dataset wisdm --mode pretrain --data_size full
 
 The pretrained checkpoints are stored in directory `rita/code/checkpoints`. After pretraining, the checkpoints can be copied and saved for further finetuning.
 
-To perform few-label finetuning, set `MODE` to `finetune` and set `PRETRAINED_PATH` to the pretrained checkpoint's path, which is either obtained by performing pretraining as described above or downloading the pretrained checkpoints [https://storage.googleapis.com/rita_resources/rita_pretrained.tar.gz](https://storage.googleapis.com/rita_resources/rita_pretrained.tar.gz). For example, the command of few-label finetuning on dataset WISDM is:
+To perform few-label finetuning, set `MODE` to `finetune` and set `PRETRAINED_PATH` to the pretrained checkpoint's path, which is either obtained by performing pretraining as described above or downloading the pretrained checkpoints at [https://storage.googleapis.com/rita_resources/rita_pretrained.tar.gz](https://storage.googleapis.com/rita_resources/rita_pretrained.tar.gz). For example, the command of few-label finetuning on dataset WISDM is:
 ```
 python run.py --dataset wisdm --mode finetune --data_size few --pretrained_path WISDM_PRETRAINED_PATH
 ```
