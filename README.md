@@ -25,7 +25,7 @@ This Repo contains code and data for [Jiaming, Liang, et al. "RITA: Group Attent
 ## Installation
 First, clone and install the git repository:
 ```
-git clone
+git clone https://github.com/ljmzlh/RITA.git
 cd rita/
 ```
 
