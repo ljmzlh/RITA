@@ -8,11 +8,25 @@ This Repo contains code and data for "RITA: Group Attention is All You Need for 
 
 
 - [RITA](#rita)
+  - [Installation](#installation)
   - [Data](#data)
   - [Model Running](#model-running)
     - [Full-label Training](#full-label-training)
     - [Pretrain & Few-label Finetuning](#pretrain--few-label-finetuning)
   
+
+## Installation
+
+In stall the required packages through `pip install`:
+```
+pip install -r requirements.txt
+```
+
+
+
+
+
+
 
 
 
