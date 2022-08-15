@@ -8,7 +8,6 @@ This Repo contains code and data for "RITA: Group Attention is All You Need for 
 
 
 - [RITA](#rita)
-  - [Installation](#installation)
   - [Data](#data)
   - [Model Running](#model-running)
     - [Full-label Training](#full-label-training)
@@ -17,18 +16,6 @@ This Repo contains code and data for "RITA: Group Attention is All You Need for 
 
 
 
-
-## Installation
-First, clone and install the git repository:
-```
-git clone https://github.com/ljmzlh/RITA.git
-cd rita/
-```
-
-Then, install the required packages through `pip`.
-```
-pip install -r requirements.txt
-```
 
 
 ## Data
