@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 
 ## Data
-The zip file of preprocessed dataset can be acess [here](). Please download the zip file and put it under the directory `rita/`.
+The zip file of preprocessed dataset can be acess at [https://storage.googleapis.com/rita_resources/rita_dataset.tar.gz](https://storage.googleapis.com/rita_resources/rita_dataset.tar.gz). Please download the zip file and put it under the directory `rita/`.
 Then perform the following commands to unzip dataset files.
 ```
 tar -zxvf rita_dataset.tar.gz
@@ -74,7 +74,7 @@ python run.py --dataset wisdm --mode pretrain --data_size full
 
 The pretrained checkpoints are stored in directory `rita/code/checkpoints`. After pretraining, the checkpoints can be copied and saved for further finetuning.
 
-To perform few-label finetuning, set `MODE` to `finetune` and set `PRETRAINED_PATH` to the pretrained checkpoint's path, which is either obtained by performing pretraining as described above or downloading the pretrained checkpoints [here](). For example, the command of few-label finetuning on dataset WISDM is:
+To perform few-label finetuning, set `MODE` to `finetune` and set `PRETRAINED_PATH` to the pretrained checkpoint's path, which is either obtained by performing pretraining as described above or downloading the pretrained checkpoints [https://storage.googleapis.com/rita_resources/rita_pretrained.tar.gz](https://storage.googleapis.com/rita_resources/rita_pretrained.tar.gz). For example, the command of few-label finetuning on dataset WISDM is:
 ```
 python run.py --dataset wisdm --mode finetune --data_size few --pretrained_path WISDM_PRETRAINED_PATH
 ```
