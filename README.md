@@ -1,5 +1,5 @@
 # RITA
-This Repo contains code and data for ["RITA: Group Attention is All You Need for Timeseries Analytics."]() 
+This Repo contains code and data for "RITA: Group Attention is All You Need for Timeseries Analytics."
 
 ![overview_0](https://drive.google.com/uc?id=1YkwqSqtJQDBZQqakRySXelDrl8juNPOg)
 
