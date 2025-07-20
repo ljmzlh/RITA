@@ -1,5 +1,5 @@
 ## RITA: Group Attention is All You Need for Timeseries Analytics
-<em><small>Proceedings of the ACM SIGMOD International Conference on Management of Data</small></em><sub><small>(SIGMOD 2024)</small></sub>, <small>February 2024</small>
+<em><small>Proceedings of the ACM SIGMOD International Conference on Management of Data</small></em>, <small>February 2024</small>
   📄 [Paper link](https://dl.acm.org/doi/abs/10.1145/3639317)
 
 ![overview_0](https://drive.google.com/uc?id=1YkwqSqtJQDBZQqakRySXelDrl8juNPOg)
